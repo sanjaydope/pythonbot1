@@ -3,8 +3,6 @@ import asyncio
 import discord
 from discord.ext import commands, tasks
 from discord.voice_client import VoiceClient
-import youtube_dl
-
 from random import choice
 
 youtube_dl.utils.bug_reports_message = lambda: ''
